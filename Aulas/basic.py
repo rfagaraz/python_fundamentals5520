@@ -25,9 +25,10 @@
 # num2 = input('Digite o segundo número: ')
 # print(int(num1)+float(num2))
 
-texto = 'esse é um texto'
+# texto = 'esse é um texto'
 
-print(texto.upper())
-print(texto.lower())
-print(texto.capitalize())
-print(texto.split(' '))
+# print(texto.upper())
+# print(texto.lower())
+# print(texto.capitalize())
+# print(texto.split(' '))
+# print(texto.replace('e','E'))
