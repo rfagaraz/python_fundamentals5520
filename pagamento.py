@@ -20,7 +20,7 @@ sindicato = (salarioBruto * 0.03)
 if salarioBruto <= 1900:
     descontoIR = 0
 elif salarioBruto <= 2800:
-    descontoIR = 0.7
+    descontoIR = 0.07
 elif salarioBruto <= 3700:
     descontoIR = 0.15
 elif salarioBruto <= 4600:
@@ -30,10 +30,11 @@ else:
 
 totalDescontos =  (salarioBruto * descontoIR) + sindicato
 print('\n\n\n'+ ('-'*20))
+
 print(f'Valor da hora: R${salarioHora}')
 print(f'Quantidade de horas trabalhadas: {horasTrabalhadas}')
 print(f'Salário Bruto: ({horasTrabalhadas} * {salarioHora}): R${salarioBruto}')
-print(f'(-)IR: ({descontoIR *100}%): R${salarioBruto * descontoIR}')
+print(f'(-)IR: ({int(descontoIR *100)}%): R${int(salarioBruto * descontoIR)}')
 print(f'(-)Sindicato: (3%): R${sindicato}')
 print(f'FGTS: (11%): R${fgts}')
 print(f'Total de descontos: R${totalDescontos}')
