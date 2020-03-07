@@ -13,26 +13,26 @@
 
 # dado o dicionario:
 
-dados = {
-    "estados": {
-        "sp":{
-            "nome": 'São Paulo',
-            'municipios': 645,
-            "populacao": 44.04
-        },
-        "rj":{
-            "nome": 'Rio de Janeiro',
-            'municipios': 92,
-            "populacao": 16.72
-        },
-        "mg":{
-            "nome": 'Minas Gerais',
-            'municipios': 31,
-            "populacao": 20.87
-        }
-    }
+# dados = {
+#     "estados": {
+#         "sp":{
+#             "nome": 'São Paulo',
+#             'municipios': 645,
+#             "populacao": 44.04
+#         },
+#         "rj":{
+#             "nome": 'Rio de Janeiro',
+#             'municipios': 92,
+#             "populacao": 16.72
+#         },
+#         "mg":{
+#             "nome": 'Minas Gerais',
+#             'municipios': 31,
+#             "populacao": 20.87
+#         }
+#     }
 
-}
+# }
 
 # Imprima as seguintes informações:
 
@@ -50,16 +50,16 @@ dados = {
 # print(f'O nome, quantidade de municípios e população do estado, respectivamente é: {dados["estados"]["rj"].values()}')
 # print(f'O nome, quantidade de municípios e população do estado, respectivamente é: {dados["estados"]["mg"].values()}')
 
-print('Exercício 1!')
-nota1 = float(input('Digite a nota de sua primeira prova: '))
-nota2 = float(input('Digite a nota de sua segunda prova: '))
-nota3 = float(input('Digite a nota de sua terceira prova: '))
-nota4 = float(input('Digite a nota de sua quarta prova: '))
+# print('Exercício 1!')
+# nota1 = float(input('Digite a nota de sua primeira prova: '))
+# nota2 = float(input('Digite a nota de sua segunda prova: '))
+# nota3 = float(input('Digite a nota de sua terceira prova: '))
+# nota4 = float(input('Digite a nota de sua quarta prova: '))
 
-if (nota1+nota2+nota3+nota4)/4 >= 7:
-    print('Você foi aprovado ao final do ano!')
-else:
-    print('Você foi reprovado ao final do ano =(')
+# if (nota1+nota2+nota3+nota4)/4 >= 7:
+#     print('Você foi aprovado ao final do ano!')
+# else:
+#     print('Você foi reprovado ao final do ano =(')
 
 print('\n\n\nExercício 2!')
 num1 = float(input('Digite o primeiro número: '))
