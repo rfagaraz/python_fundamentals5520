@@ -32,7 +32,7 @@ totalDescontos =  (salarioBruto * descontoIR) + sindicato
 print('\n\n\n'+ ('-'*20))
 
 print(f'Valor da hora: R${salarioHora}')
-print(f'Quantidade de horas trabalhadas: {horasTrabalhadas}')
+print(f'Quantidade de horas trabalhadas: {int(horasTrabalhadas)}')
 print(f'Salário Bruto: ({horasTrabalhadas} * {salarioHora}): R${salarioBruto}')
 print(f'(-)IR: ({int(descontoIR *100)}%): R${int(salarioBruto * descontoIR)}')
 print(f'(-)Sindicato: (3%): R${sindicato}')

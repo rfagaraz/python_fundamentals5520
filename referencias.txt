@@ -3,3 +3,8 @@ https://www.openshift.com/
 http://www.dontpad.com/5520python
 https://www.codenation.dev/companies-en/
 https://github.com/the-akira/Python-Iluminado
+https://www.kaggle.com/
+
+centOS -> Plataforma Linux
+debian -> Plataforma Linus
+
