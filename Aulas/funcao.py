@@ -108,7 +108,7 @@
 # soma = lambda x,y: x+y
 # print(soma(10,20))
 
-numeros = [1,2,3,4,5,6,7,8,9]
+# numeros = [1,2,3,4,5,6,7,8,9]
 
 # dobro = list(map(lambda x: x*2, numeros))
 # print(dobro)
@@ -119,3 +119,44 @@ numeros = [1,2,3,4,5,6,7,8,9]
 
 # n_par = filter(lambda x: x % 2 == 0, numeros)
 # print(list(n_par))
+
+# cadastro = []
+
+# def cadastrar(nome):
+#     global cadastro
+#     print (cadastro)
+#     cadastro = ['outro nome']
+#     print(cadastro)
+#     cadastro.append([nome])
+#     print(cadastro)
+# cadastrar('renato')
+# print(cadastro)
+
+# personagens = []
+# def addPerso(nome):
+#     personagens.append(nome)
+
+# def rmvPerso(x):
+#     personagens.remove(x)
+#     except ValueError as erro:
+#         print(erro)
+#         print('Não rolou')
+
+# def limpaPerso():
+#     personagens.pop()
+
+# addPerso('renato')
+# print(personagens)
+
+# print(personagens.pop(0))
+# print(personagens)
+
+def par(número):
+    if número % 2 == 0: 
+        print(f'{número} é par')
+    else:
+        print(f'{número} é ímpar')
+
+var = 's'
+
+var.upper() 
