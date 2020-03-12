@@ -29,10 +29,13 @@ class ClientBankAccount():
                 print('Apenas valores numéricos!')
         else:
             print('Saldo insuficiente.')
+            print('-'*20)
 
     def bankStatement(self): 
         print('-'*20)
+        print(f'Banco Old Bank - {self.bankID}')
         print(f'Data de consulta: {dt.datetime.now()}')
+        print(f'Agência: {self.bankAgency} Conta: {self.bankAccount}')
         print('O seu saldo é de R${},00 reais.'.format(self.clientBalance))
     
 
